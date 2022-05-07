@@ -7,7 +7,7 @@
 
 setTimeout(() => {
     // Page load popup.
-    alert('Welcome to \'Visualizing WSPDs and their applications\'! \nFor the best user experience, we recommend using the applet in full screen.');
+    window.confirm('Welcome to \'Visualizing WSPDs and their applications\'. \nFor the best user experience, we recommend using the applet in full screen. \nFor a walk-through video refer to the readme.');
 }, 200);
 
 // Globals

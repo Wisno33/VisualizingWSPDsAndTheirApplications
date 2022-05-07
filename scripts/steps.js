@@ -350,7 +350,7 @@ steps.set('getNearestNeighbor',
 steps.set('tApproxMST',
         '<p style="text-align: center;"> \\(t\\)\\(-\\)\\(ApproximateMinimumSpanningTree(P,t>1)\\) </p>' +
         '<p> 1) Construct a t-WSPDspanner \\(G\\). </p>' +
-        '<p> 2) Prims(G) </p>' +
+        '<p> 2) Prims (\\(G\\)) </p>' +
         '<p> 2.1) Select an arbitrary starting point. <p>' +
         '<p> 2.2) While the \\(|T_v| < |P|\\) select the shortest edge \\(e\\) of ' +
         '\\(G\\) with at least one vertex in \\(T\\). </p> ' +
@@ -360,7 +360,7 @@ steps.set('tApproxMST',
 steps.set('tApproxMSTStartPoint',
         '<p style="text-align: center;"> \\(t\\)\\(-\\)\\(ApproximateMinimumSpanningTree(P,t>1)\\) </p>' +
         '<p> 1) Construct a t-WSPDspanner \\(G\\). </p>' +
-        '<p> <strong> 2) Prims(G) </strong> </p>' +
+        '<p> <strong> 2) Prims (\\(G\\)) </strong> </p>' +
         '<p> <strong> 2.1) Select an arbitrary starting point. </strong> <p>' +
         '<p> 2.2) While the \\(|T_v| < |P|\\) select the shortest edge \\(e\\) of ' +
         '\\(G\\) with at least one vertex in \\(T\\). </p> ' +
@@ -370,7 +370,7 @@ steps.set('tApproxMSTStartPoint',
 steps.set('tApproxMSTConsidered',
         '<p style="text-align: center;"> \\(t\\)\\(-\\)\\(ApproximateMinimumSpanningTree(P,t>1)\\) </p>' +
         '<p> 1) Construct a t-WSPDspanner \\(G\\). </p>' +
-        '<p> 2) <strong> Prims(G) </strong> </p>' +
+        '<p> 2) <strong> Prims (\\(G\\)) </strong> </p>' +
         '<p> 2.1) Select an arbitrary starting point. <p>' +
         '<p> <strong> 2.2) While the \\(|T_v| < |P|\\) select the shortest edge \\(e\\) of ' +
         '\\(G\\) with at least one vertex in \\(T\\). </strong> </p> ' +
@@ -380,7 +380,7 @@ steps.set('tApproxMSTConsidered',
 steps.set('cycleEdge',
         '<p style="text-align: center;"> \\(t\\)\\(-\\)\\(ApproximateMinimumSpanningTree(P,t>1)\\) </p>' +
         '<p> 1) Construct a t-WSPDspanner \\(G\\). </p>' +
-        '<p> <strong> 2) Prims(G) </strong> </p>' +
+        '<p> <strong> 2) Prims (\\(G\\)) </strong> </p>' +
         '<p> 2.1) Select an arbitrary starting point. <p>' +
         '<p> 2.2) While the \\(|T_v| < |P|\\) select the shortest edge \\(e\\) of ' +
         '\\(G\\) with at least one vertex in \\(T\\). </p> ' +
@@ -390,7 +390,7 @@ steps.set('cycleEdge',
 steps.set('tApproxMSTAdd',
         '<p style="text-align: center;"> \\(t\\)\\(-\\)\\(ApproximateMinimumSpanningTree(P,t>1)\\) </p>' +
         '<p> 1) Construct a t-WSPDspanner \\(G\\). </p>' +
-        '<p> <strong> 2) Prims(G) </strong> </p>' +
+        '<p> <strong> 2) Prims (\\(G\\)) </strong> </p>' +
         '<p> 2.1) Select an arbitrary starting point. <p>' +
         '<p> 2.2) While the \\(|T_v| < |P|\\) select the shortest edge \\(e\\) of ' +
         '\\(G\\) with at least one vertex in \\(T\\). </p> ' +
@@ -405,6 +405,6 @@ function displaySteps(selection) {
 
         stepsBox.innerHTML += steps.get(selection) // Set the steps.
 
-        MathJax.typeset(); // Latex typeset.
+        //MathJax.typeset(); // Latex typeset.
 }
 
