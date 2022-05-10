@@ -405,6 +405,6 @@ function displaySteps(selection) {
 
         stepsBox.innerHTML += steps.get(selection) // Set the steps.
 
-        //MathJax.typeset(); // Latex typeset.
+        MathJax.typeset(); // Latex typeset.
 }
 
